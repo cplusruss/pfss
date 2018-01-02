@@ -10,5 +10,21 @@ Sometimes, I don't have a Perrier (or equivalent) immediately next to the comput
 * San Pellegrino (a swift turn of the cap)
 
 # Installation
-
 There is no installation. Just run the script. 
+
+Install pyglet
+```
+pip install pyglet
+```
+
+Install AVbin
+```
+wget https://github.com/downloads/AVbin/AVbin/avbin-darwin-x86-64-v8.1.tar.bz2
+tar -xvjf avbin-darwin-x86-64-v8.1.tar.bz2  && cd avbin-darwin-x86-64-v8.1 
+sudo ./install.sh
+```
+
+
+# Remove annoying message (macOS)
+defaults write org.python.python ApplePersistenceIgnoreState NO
+
