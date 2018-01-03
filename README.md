@@ -27,6 +27,6 @@ sudo ./install.sh
 python main.py
 ```
 
-# Remove annoying message (macOS)
+## Remove annoying message (macOS)
 defaults write org.python.python ApplePersistenceIgnoreState NO
 
